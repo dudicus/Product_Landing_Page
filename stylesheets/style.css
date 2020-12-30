@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(../images/prism.png);
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#content {
+    padding-top: 75px;
+}
+
+#header-img {
+    height: auto;
+    max-width: 20vh;
+    display: block;
+    padding: 10px;
+    float: left;
+}
+
+nav, #product-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    padding: 23px 25px; 
+    text-align: center;
+    border-left: 2px solid white;
+}
+
+nav a:hover {
+    background-color: rgba(256, 256, 256, 0.15);
+}
+
+#hpd-img {
+    clear: both;
+    height: auto;
+    max-width: 100%;
+    padding: 30px;
+    display: block;
+    margin: 0px auto;
+}
+
+@media (min-width: 800px) {
+    #hpd-img {
+        max-width: 50%;
+    }
+}
+
+#info, #products, #form {
+    width: 80%;
+    margin: 0px auto;
+    color: white;
+    padding: 10px;
+}
+
+#info {
+    width: 50%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#video {
+    display: block;
+    margin: 0px auto;
+}
+
+#product-flex {
+    justify-content: space-evenly;
+}
+
+h2 {
+    background-color: black;
+    padding: 5px;
+    border: 2px white solid;
+}
+
+h3 {
+    font-weight: bold;
+    border: 2px rgb(0, 110, 255) solid;
+    padding: 5px;
+    font-size: 16px;
+}
+
+section {
+    padding: 20px;
+    width: 33%;
+    height: 203px;
+    background-color: black;
+    border: 2px orange solid;
+}
+
+#form {
+    text-align: center;
+}
